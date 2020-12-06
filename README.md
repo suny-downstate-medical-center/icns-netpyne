@@ -2,7 +2,7 @@
 Version 0.1
 
 # Description: 
-Principle Neuron model adapted to run in NettPyNE, with graphical output of voltage v. time.
+Principle Neuron model adapted to run in NetPyNE, with graphical output of voltage v. time.
 
 
 # Contents
