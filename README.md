@@ -14,7 +14,7 @@ README.md; 'xample_plot_netpyne.png'
 # Usage
 ## Download the above scripts from repo.
 
-## Open a mew Terminal window.
+## Open a new Terminal window.
 
 ## Install most recent version of Python: 
 Enter pip3 install ipython
