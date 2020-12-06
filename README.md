@@ -10,22 +10,32 @@ Principle Neuron model adapted to run in NettPyNE, with graphical output of volt
 init.py, cfg.py, netParams.py
 ## NMOD: 
 ‘mod’ folder containing ahp.mod, cabuff.mod, cal.mod, can.mod, kaar.mod, kdr.mod, naf.mod, SynE.mod
+## README.md, example_plot_netpyne.png'
 
 
 # Usage
-## Download the above scripts, open new Terminal window, and cd to directory where files are saved.
+## Download the above scripts from repo.
 
-## From cmd line, install most recent version of Python: enter pip3 install ipython
+## Opem a mew Terminal window.
 
-## Install NEURON: enter pip3 install neuron
+## Install most recent version of Python: 
+### Enter pip3 install ipython
+
+## Install NEURON: 
+### Enter pip3 install neuron
 This should also install the NMOD compiler.
-Enter which nrnivmodl in the Terminal to ensure successful installation of NMOD compiler (should point to local compiler)
+Enter which nrnivmodl in the Terminal to ensure successful installation of NMOD compiler (should point to local compiler).
 
-## Install NETPyNE: enter pip3 install netpyne
+## Install NETPyNE: 
+### Enter pip3 install netpyne
 
-## Compile mod files: enter nrnivmodl mod. 
+## Compile mod files: 
+### Enter nrnivmodl mod. 
 A new directory ‘x86_64’ will appear in the parent directory
 
-## Run a simulation: enter ipython init.py
+## Run a simulation: 
+### Enter ipython init.py
+
+# Output
 The result will plotted and saved as ‘example_plot_netpyne.png’ 
 
