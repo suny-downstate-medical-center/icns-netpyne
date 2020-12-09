@@ -1,5 +1,11 @@
 # Intrinsic Cardiac Nervous System - Principal Neuron model
-Version 0.1
+## Version 0.1
+The mod files are from here:
+https://senselab.med.yale.edu/ModelDB/ShowModel?model=3800
+
+## The mod files are from here:
+https://senselab.med.yale.edu/ModelDB/ShowModel?model=3800
+
 
 # Description: 
 Principle Neuron model adapted to run in NetPyNE, with graphical output of voltage v. time.
@@ -16,19 +22,16 @@ README.md; 'xample_plot_netpyne.png'
 
 ## Open a new Terminal window.
 
-## Install most recent version of Python: 
-Enter pip3 install ipython
-
 ## Install NEURON: 
-Enter pip3 install neuron
-  This should also install the NMOD compiler.
+Enter: pip3 install neuron
+  This will also install the NMOD compiler.
   Enter which nrnivmodl in the Terminal to ensure successful installation of NMOD compiler (should point to local compiler).
 
 ## Install NETPyNE: 
-Enter pip3 install netpyne
+Enter: pip3 install -e netpyne
 
 ## Compile mod files: 
-Enter nrnivmodl mod. 
+Enter: nrnivmodl mod
   A new directory ‘x86_64’ will appear in the parent directory
 
 ## Run a simulation: 
