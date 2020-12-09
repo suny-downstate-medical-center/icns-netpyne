@@ -1,9 +1,7 @@
 # Intrinsic Cardiac Nervous System - Principal Neuron model
 ## Version 0.1
-The mod files are from here:
-https://senselab.med.yale.edu/ModelDB/ShowModel?model=3800
 
-## The mod files are from here:
+The mod files are from here:
 https://senselab.med.yale.edu/ModelDB/ShowModel?model=3800
 
 
