@@ -20,20 +20,19 @@ README.md; 'xample_plot_netpyne.png'
 
 ## Open a new Terminal window.
 
-## Install NEURON: 
-Enter: pip3 install neuron
+## Install NEURON
+Enter pip3 install neuron.
   This will also install the NMOD compiler.
-  Enter which nrnivmodl in the Terminal to ensure successful installation of NMOD compiler (should point to local compiler).
+Enter which nrnivmodl in the Terminal to ensure successful installation of NMOD compiler (should point to local compiler).
 
-## Install NETPyNE: 
+## Install NETPyNE 
 Enter: pip3 install -e netpyne
 
-## Compile mod files: 
-Enter: nrnivmodl mod
-  A new directory ‘x86_64’ will appear in the parent directory
+## Compile mod files 
+Enter nrnivmodl mod
 
 ## Run a simulation: 
-Enter ipython init.py
+Enter ipython init.py or python3 init.py
 
 # Output
 The result will plotted and saved as ‘example_plot_netpyne.png’ 
