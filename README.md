@@ -16,7 +16,7 @@ README.md; 'xample_plot_netpyne.png'
 
 
 # Usage
-## Download the above scripts from repo.
+## Download the above scripts and 'mod' folder.
 
 ## Open a new Terminal window.
 
