@@ -13,11 +13,11 @@ Principle Neuron model adapted to run in NetPyNE, with graphical output of volta
 
 
 # Usage
-## Download the above scripts and 'mod' folder.
+## Clone the above scripts and 'mod' folder.
 
 ## Open a new Terminal window.
 
-## Install NEURON
+##Install NEURON
 Enter pip3 install neuron.
   This will also install the NMOD compiler.
 Enter which nrnivmodl to ensure successful installation of NMOD compiler (should point to local compiler)
@@ -32,5 +32,5 @@ Enter which nrnivmodl to ensure successful installation of NMOD compiler (should
   Enter ipython init.py or python3 init.py
 
 # Output
-The result will plotted and saved as ‘example_plot_netpyne.png’ 
+  The result will plotted and saved as ‘example_plot_netpyne.png’ 
 
