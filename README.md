@@ -17,7 +17,7 @@ Principle Neuron model adapted to run in NetPyNE, with graphical output of volta
 
 ## Open a new Terminal window.
 
-##Install NEURON
+## Install NEURON
 Enter pip3 install neuron.
   This will also install the NMOD compiler.
 Enter which nrnivmodl to ensure successful installation of NMOD compiler (should point to local compiler)
