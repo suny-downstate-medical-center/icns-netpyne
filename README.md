@@ -9,12 +9,12 @@ Principle Neuron model adapted to run in NetPyNE, with graphical output of volta
 # Contents
   NetPyNE: init.py, cfg.py, netParams.py;
   NMOD: ‘mod’ folder containing ahp.mod, cabuff.mod, cal.mod, can.mod, kaar.mod, kdr.mod, naf.mod, SynE.mod;
-  README.md; 'xample_plot_netpyne.png'
+  README.md; 'example_plot_netpyne.png'
 
 # Usage
-## Clone the above scripts and 'mod' folder.
+## Clone repository
 
-## Open a new Terminal window.
+## Open a new Terminal window
 
 ## Install NEURON
 ### Enter: pip3 install neuron (This will also install the NMOD compiler)
@@ -30,5 +30,5 @@ Principle Neuron model adapted to run in NetPyNE, with graphical output of volta
 ### Enter: ipython init.py or python3 init.py
 
 # Output
-The result will plotted and saved as ‘example_plot_netpyne.png’ 
+The result will plotted and saved as ‘test_plot_netpyne.png’ 
 
