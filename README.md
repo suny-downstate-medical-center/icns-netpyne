@@ -1,4 +1,4 @@
-# Intrinsic Cardiac Nervous System-Right Atrial Genglionic Plexus: Principal Neuron model - NetPyNE
+# Intrinsic Cardiac Nervous System Principal Neuron model - NetPyNE
 
 The mod files are from here:
 https://senselab.med.yale.edu/ModelDB/ShowModel?model=3800
@@ -7,8 +7,8 @@ https://senselab.med.yale.edu/ModelDB/ShowModel?model=3800
 Principle Neuron model adapted to run in NetPyNE, with graphical output of voltage v. time.
 
 # Contents
-  NetPyNE: init.py, cfg.py, netParams.py;
-  NMOD: ‘mod’ folder containing ahp.mod, cabuff.mod, cal.mod, can.mod, kaar.mod, kdr.mod, naf.mod, SynE.mod;
+  NetPyNE: init.py, cfg.py, netParams.py
+  NMOD: ‘mod’ folder containing ahp.mod, cabuff.mod, cal.mod, can.mod, kaar.mod, kdr.mod, naf.mod, SynE.mod
   README.md; 'example_plot_netpyne.png'
 
 # Usage
