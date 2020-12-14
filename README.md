@@ -17,18 +17,18 @@ Principle Neuron model adapted to run in NetPyNE, with graphical output of volta
 ## Open a new Terminal window
 
 ## Install NEURON
-### Enter: pip3 install neuron (This will also install the NMOD compiler)
-### Enter: which nrnivmodl (This will indicate successful installation of NMOD compiler - should point to local compiler)
+    Enter: pip3 install neuron (This will also install the NMOD compiler)
+    Enter: which nrnivmodl (This will indicate successful installation of NMOD compiler - should point to local compiler)
 
 ## Install NETPyNE 
-  Enter: pip3 install -e netpyne
+    Enter: pip3 install -e netpyne
 
 ## Compile mod files 
     Enter: nrnivmodl mod
 
 ## Run a simulation: 
-### Enter: ipython init.py or python3 init.py
+    Enter: python3 init.py or ipython init.py (ipython)
 
 # Output
-The result will plotted and saved as ‘test_plot_netpyne.png’ 
+    Plot of voltage v. time is generated and saved as ‘test_plot_netpyne.png’ 
 
