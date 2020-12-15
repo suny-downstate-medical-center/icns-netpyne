@@ -30,5 +30,5 @@ Principle Neuron model adapted to run in NetPyNE, with graphical output of volta
     Enter: python3 init.py or ipython init.py (if working in ipython)
 
 # Output
-    Plot of voltage (mV) v. time (s) is generated and saved as ‘test_plot_netpyne.png’ 
+Plot of voltage (mV) v. time (s) is generated and saved as ‘test_plot_netpyne.png’ 
 
