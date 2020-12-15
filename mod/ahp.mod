@@ -21,6 +21,7 @@ PARAMETER {
 }
 
 ASSIGNED {
+	area (um2)
 	v (mV)
 	ek (mV)
 	cai (mM)
@@ -28,6 +29,8 @@ ASSIGNED {
 	miAHP
 	tmAHP (ms)
 	gAHP (S/cm2)
+	Pb
+	taupump (ms)
 }
 
 STATE {
