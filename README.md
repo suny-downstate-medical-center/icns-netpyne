@@ -1,4 +1,4 @@
-# Intrinsic Cardiac Nervous System Principal Neuron model - NetPyNE
+# Intrinsic Cardiac Nervous System Principal Neuron model - NetPyNE and NEURON
 
 The mod files are from here:
 https://senselab.med.yale.edu/ModelDB/ShowModel?model=3800
