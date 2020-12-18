@@ -4,7 +4,7 @@ from neuron import h,gui
 soma = h.Section(name='soma')
 ### h.topology()
 
-### soma.psection()
+### somttpsection()
 #{'point_processes': {}, 
 #'density_mechs': {}, 
 #'ions': {}, 
@@ -27,15 +27,15 @@ soma = h.Section(name='soma')
 # pprint.pprint
 soma.psection()['morphology']['L']
 
-# NOTE: to change vals
+# VALS TO CHANGE IN NEURON t
 #h.celsius
 #soma.Ra
 
 
 
 ### SETTING VALUES
-soma.L = 20
-soma.diam = 20
+soma.L = []
+soma.diam = []
 # dir(soma)
 #import textwrap
 #print(textwrap.fill(', '.join(dir(h))))
@@ -44,3 +44,9 @@ soma.diam = 20
 
 ### INSERT ION CHANNELS
 soma.insert('hh')
+
+
+### SECTIONS AND SEGMENTS ###
+# Section: section
+# Segment: segment
+print("type(soma)={}".format(type(soma)))
