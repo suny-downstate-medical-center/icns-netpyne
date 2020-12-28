@@ -7,8 +7,8 @@ soma.insert('hh')
 #hh.gnabar, hh.gkbar, hh.gl, hh.el = 0.12 , 0.036 , 0.0003 , -54.3 #NOTE: hh. throws an error
 soma(0.5).hh.gnabar # = 0.12
 soma(0.5).hh.gkbar # = 0.036
-soma(0.5).hh.gl = #0.0003
-soma(0.5).hh.el = #-54.3
+soma(0.5).hh.gl #= 0.0003
+soma(0.5).hh.el #= -54.3
 
 # SET NSEG - setting hh.gnabar for all nseg
 # for seg in soma: print(seg)
