@@ -5,6 +5,16 @@ soma = h.Section(name='soma')
 soma.L, soma.diam, soma.cm = 12.6157, 12.6157, 1
 soma.insert('hh')
 #hh.gnabar, hh.gkbar, hh.gl, hh.el = 0.12 , 0.036 , 0.0003 , -54.3 #NOTE: hh. throws an error
+soma(0.5).hh.gnabar # = 0.12
+soma(0.5).hh.gkbar # = 0.036
+soma(0.5).hh.gl = #0.0003
+soma(0.5).hh.el = #-54.3
+
+# SET NSEG - setting hh.gnabar for all nseg
+# for seg in soma: print(seg)
+#    seg.hh.gnabar
+# soma.nseg = 3
+
 mech = soma(0.5).hh
 #print(dir(mech))
 
@@ -40,6 +50,7 @@ plt.plot(t, v)
 plt.xlabel('t (ms)')
 plt.ylabel('v (mV)')
 plt.show()
+# SAVE figure
 
 
 ## MISC CODE
