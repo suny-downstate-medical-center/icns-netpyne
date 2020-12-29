@@ -4,19 +4,17 @@ from neuron.units import ms, mV
 soma = h.Section(name='soma')
 soma.L, soma.diam, soma.cm = 12.6157, 12.6157, 1
 soma.insert('hh')
-#hh.gnabar, hh.gkbar, hh.gl, hh.el = 0.12 , 0.036 , 0.0003 , -54.3 #NOTE: hh. throws an error
-soma(0.5).hh.gnabar # = 0.12
-soma(0.5).hh.gkbar # = 0.036
-soma(0.5).hh.gl #= 0.0003
-soma(0.5).hh.el #= -54.3
+
+for seg in soma:
+    seg.hh.gnabar = 0.12
+    seg.hh.gkbar = 0.036
+    seg.hh.gl = 0.0003
+    seg.hh.el = -54.3
 
 # SET NSEG - setting hh.gnabar for all nseg
 # for seg in soma: print(seg)
 #    seg.hh.gnabar
 # soma.nseg = 3
-
-mech = soma(0.5).hh
-#print(dir(mech))
 
 ## INSERT AN ICLAMP/STIMULUS
 iclamp = h.IClamp(soma(0.5))
