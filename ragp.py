@@ -5,8 +5,8 @@ soma = h.Section(name='soma')
 soma.L, soma.diam, soma.cm = 12.6157, 12.6157, 1
 soma.insert('hh')
      
-def initalize_segments()
-    for seg in soma
+def initalize_segments():
+    for seg in soma:
         seg.hh.gnabar = 0.12
         seg.hh.gkbar = 0.036
         seg.hh.gl = 0.0003
