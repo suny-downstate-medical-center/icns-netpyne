@@ -5,11 +5,12 @@ soma = h.Section(name='soma')
 soma.L, soma.diam, soma.cm = 12.6157, 12.6157, 1
 soma.insert('hh')
 
-for seg in soma:
-    seg.hh.gnabar = 0.12
-    seg.hh.gkbar = 0.036
-    seg.hh.gl = 0.0003
-    seg.hh.el = -54.3
+def Initialise_segments:
+	for seg in soma:
+    	seg.hh.gnabar = 0.12
+    	seg.hh.gkbar = 0.036
+    	seg.hh.gl = 0.0003
+    	seg.hh.el = -54.3
 
 # SET NSEG - setting hh.gnabar for all nseg
 # for seg in soma: print(seg)
